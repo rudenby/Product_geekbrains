@@ -1,0 +1,248 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial, serif;
+}
+
+.main-header {
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+}
+
+.main-header-wrapper {
+    float: left;
+}
+
+.main-header-title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.color-txt {
+    color: red;
+}
+
+.main-header-list {
+    list-style-type: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.main-header-list-item {
+    position: relative;
+}
+
+.main-header-list-item:before {
+    width: 25px;
+    height: 19px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: -37px;
+
+    background-image: url('https://images.vexels.com/media/users/3/143487/isolated/preview/7fe39483697e2065910f66e9dacafd7e-turquoise-tick-check-mark-by-vexels.png');
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-header-product-photo {
+    display: block;
+    background-color: #ffffff;
+    width: 469px;
+    height: 214px;
+    float: right;
+}
+
+.about {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.about:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.about-wrapper {
+    float: left;
+    width: 55%;
+}
+
+.about .about-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.about .about-text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.about .about-img {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+}
+
+.dignity {
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.dignity:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.dignity-title {
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+}
+
+.dignity-list {
+    width: 540px;
+    margin: 0;
+    padding: 0 0 0 46px;
+    list-style-type: none;
+    float: left;
+
+}
+
+.dignity-list:nth-child(3) {
+    float: right;
+}
+
+.dignity-list-item {
+    margin: 0 0 40px 0;
+    position: relative;
+}
+
+.dignity-list:nth-child(2) > .dignity-list-item:nth-child(3),
+.dignity-list:nth-child(3) > .dignity-list-item:nth-child(3) {
+    margin: 0;
+}
+
+.dignity-list-item:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    left: -46px;
+}
+
+.scr {
+    width: 100%;
+    padding: 50px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.scr:after {
+    content: "";
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.scr .scr-title {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 35px 0;
+}
+
+.scr figure.scr-description {
+    width: 50%;
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 0 15px 0 0;
+    box-sizing: border-box;
+}
+
+.scr img.scr-description-img {
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+    margin: 0 15px 0 0;
+}
+
+.scr .scr-description-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+    margin: 0 0 15px 0;
+}
+
+.scr .scr-description-text {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
