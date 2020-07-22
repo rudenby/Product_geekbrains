@@ -52,11 +52,13 @@ body {
     top: 7px;
     left: -37px;
 
-    background-image: url('https://images.vexels.com/media/users/3/143487/isolated/preview/7fe39483697e2065910f66e9dacafd7e-turquoise-tick-check-mark-by-vexels.png');
+    background-image: url("../img/check_icon_346.png");
     -webkit-background-size: contain;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: 1;
+    /*background-color: white;*/
 }
 
 .main-header-product-photo {
@@ -67,40 +69,40 @@ body {
     float: right;
 }
 
-.about {
+.description {
     width: 100%;
     background-color: #ffffff;
     padding: 50px;
     box-sizing: border-box;
 }
 
-.about:after {
+.description:after {
     content: "";
     display: block;
     width: 100%;
     clear: both;
 }
 
-.about-wrapper {
+.description-wrapper {
     float: left;
     width: 55%;
 }
 
-.about .about-title {
+.description-title {
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
     color: #445161;
 }
 
-.about .about-text {
+.description-text {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #333333;
 }
 
-.about .about-img {
+.description-img {
     float: right;
     width: 430px;
     height: 245px;
@@ -182,7 +184,7 @@ body {
     clear: both;
 }
 
-.scr .scr-title {
+.scr-title {
     text-align: center;
     font-size: 30px;
     line-height: 36px;
@@ -207,7 +209,7 @@ body {
     margin: 0 15px 0 0;
 }
 
-.scr .scr-description-title {
+.scr-description-title {
     font-size: 24px;
     line-height: 30px;
     font-weight: 400;
@@ -215,7 +217,7 @@ body {
     margin: 0 0 15px 0;
 }
 
-.scr .scr-description-text {
+.scr-description-text {
     font-size: 16px;
     line-height: 22px;
     font-weight: 400;
